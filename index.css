@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1400px;
+  max-width: 100%;
+}
+.head {
+  width: 1240px;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  /* position: sticky;
+  top: 0%; */
+}
+.container img {
+  width: 7rem;
+  height: 7rem;
+}
+.navbar {
+  gap: 2.5rem;
+}
+.navbar a {
+  font-size: 1.5rem;
+  color: #002147;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 100ms;
+}
+.navbar a:hover {
+  font-size: 2rem;
+  cursor: pointer;
+  border-bottom: solid 1px #002147;
+}
+.firstsec {
+  width: 1240px;
+  height: 500px;
+  background-image: url(./hero-sec.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  margin-bottom: 8rem;
+}
+.firstsec p {
+  width: 500px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: left;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.firstsec span {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffd700;
+}
+.secspan {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fffacd;
+}
+.images-container {
+  width: 1240px;
+  display: flex;
+  gap: 10px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.left-top {
+  width: 410px;
+  height: 510px;
+  background-image: url(./left-top.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.left-bootm {
+  width: 410px;
+  height: 300px;
+  background-image: url(./left-bootm.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.center-top {
+  width: 410px;
+  height: 300px;
+  background-image: url(./center\ top.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.center-bootm {
+  width: 410px;
+  height: 510px;
+  background-image: url(./center-bootm.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.right-top {
+  width: 400px;
+  height: 510px;
+  background-image: url(./right-top.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.right-bootm {
+  width: 400px;
+  height: 300px;
+  background-image: url(./right-bootm.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
