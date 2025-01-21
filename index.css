@@ -49,7 +49,7 @@ body {
 .firstsec {
   width: 1240px;
   height: 500px;
-  background-image: url(./hero-sec.jpg);
+  background-image: url(./images/hero-sec.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -88,14 +88,14 @@ body {
 .left-top {
   width: 410px;
   height: 510px;
-  background-image: url(./left-top.jpg);
+  background-image: url(./images/left-top.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .left-bootm {
   width: 410px;
   height: 300px;
-  background-image: url(./left-bootm.jpg);
+  background-image: url(./images/left-bootm.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -107,14 +107,14 @@ body {
 .center-top {
   width: 410px;
   height: 300px;
-  background-image: url(./center\ top.jpg);
+  background-image: url(./images/center\ top.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .center-bootm {
   width: 410px;
   height: 510px;
-  background-image: url(./center-bootm.jpg);
+  background-image: url(./images/center-bootm.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -126,14 +126,14 @@ body {
 .right-top {
   width: 400px;
   height: 510px;
-  background-image: url(./right-top.jpg);
+  background-image: url(./images/right-top.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .right-bootm {
   width: 400px;
   height: 300px;
-  background-image: url(./right-bootm.jpg);
+  background-image: url(./images/right-bootm.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
