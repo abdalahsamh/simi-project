@@ -8,24 +8,24 @@
 }
 
 body {
+  max-width: 100%;
   min-height: 100vh;
   display: flex;
   justify-content: center;
+  background-color: #1B1B1B;
 }
 
 .container {
-  width: 1400px;
+  width: 1260px;
   max-width: 100%;
+  background-color: #1B1B1B;
 }
 .head {
   width: 1240px;
-  height: 15vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #ffffff;
-  /* position: sticky;
-  top: 0%; */
+  background: #1B1B1B;
 }
 .container img {
   width: 7rem;
@@ -36,15 +36,14 @@ body {
 }
 .navbar a {
   font-size: 1.5rem;
-  color: #002147;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 600;
   transition: 100ms;
 }
 .navbar a:hover {
-  font-size: 2rem;
   cursor: pointer;
-  border-bottom: solid 1px #002147;
+  border-bottom: solid 1px #ffffff;
 }
 .firstsec {
   width: 1240px;
@@ -68,7 +67,7 @@ body {
 .firstsec span {
   font-size: 2rem;
   font-weight: 600;
-  color: #ffd700;
+  color: #ff8c00;
 }
 .secspan {
   font-size: 2rem;
@@ -79,6 +78,7 @@ body {
   width: 1240px;
   display: flex;
   gap: 10px;
+  margin-bottom: 4rem;
 }
 .left {
   display: flex;
@@ -136,4 +136,98 @@ body {
   background-image: url(./images/right-bootm.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+.topic {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 45px;
+  text-align: left;
+  margin-bottom: 3rem;
+  color: #ffffff;
+}
+
+.car-link {
+  width: 1240px;
+  height: 500px;
+  background-image: url(./images/cars-pages.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.button {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 56px;
+  height: 56px;
+  margin: 0;
+  overflow: hidden;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+}
+
+.button:before,
+.button:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  inset: 7px;
+}
+
+.button:before {
+  border: 4px solid #f0eeef;
+  transition: opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 80ms,
+    transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) 80ms;
+}
+
+.button:after {
+  border: 4px solid #96daf0;
+  transform: scale(1.3);
+  transition: opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+    transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  opacity: 0;
+}
+
+.button:hover:before,
+.button:focus:before {
+  opacity: 0;
+  transform: scale(0.7);
+  transition: opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+    transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.button:hover:after,
+.button:focus:after {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 80ms,
+    transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) 80ms;
+}
+
+.button-box {
+  display: flex;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
+.button-elem {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 17px 18px 0 18px;
+  transform: rotate(180deg);
+  fill: #f0eeef;
+}
+
+.button:hover .button-box,
+.button:focus .button-box {
+  transition: 0.4s;
+  transform: translateX(-56px);
 }
