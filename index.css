@@ -12,20 +12,20 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
 }
 
 .container {
   width: 1260px;
   max-width: 100%;
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
 }
 .head {
   width: 1240px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #1B1B1B;
+  background: #1b1b1b;
 }
 .container img {
   width: 7rem;
