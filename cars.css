@@ -24,19 +24,18 @@ body {
   font-size: 3rem;
   font-weight: 600;
   line-height: 33.6px;
-  color: #ffffff;
+  color: #ff8c00;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
 .first-img-con {
   width: 1240px;
-  height: 417px;
+  height: 220px;
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
 .first-img-con h1 {
-  /* font-family: "Boogaloo", serif; */
   text-align: center;
   color: #f4c123;
   margin-bottom: 4rem;
@@ -48,44 +47,97 @@ body {
   color: #1b1b1b;
 }
 .cedan-1 {
-  width: 223px;
+  background-image: url(./images/cerato.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 75%;
+  width: 400px;
   height: 220px;
   border-radius: 8px;
-  background-color: #f7f7f7;
+  background-color: #f2f3f4;
 }
 .cedan-2 {
-  width: 223px;
+  background-image: url(./images/cn7-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60%;
+  width: 400px;
   height: 220px;
   border-radius: 8px;
-  background-color: #f7f7f7;
-  /* background-image: url(./images/kia.logo22.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; */
+  background-color: #f2f3f4;
 }
 .cedan-3 {
-  width: 223px;
+  background-image: url(./images/toyota.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 42%;
+  width: 400px;
   height: 220px;
   border-radius: 8px;
-  background-color: #f7f7f7;
-  /* background-image: url(./images/New-Amazon-1-41-1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; */
+  background-color: #f2f3f4;
 }
-.cedan-4 {
-  width: 223px;
+.first-img-con {
+  width: 1240px;
   height: 220px;
-  border-radius: 8px;
-  background-color: #f7f7f7;
-  /* background-image: url(./images/fiat.logo.222.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat; */
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
-.cedan-5 {
-  width: 223px;
+.first-img-con h1 {
+  text-align: center;
+  color: #f4c123;
+  margin-bottom: 4rem;
+}
+.second-topic {
+  width: 504px;
+  height: 32px;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 33.6px;
+  color: #ff8c00;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.second-img-con {
+  width: 1240px;
+  height: 220px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.second-img-con p {
+  font-family: "Barlow", serif;
+  font-size: 1rem;
+  text-align: center;
+  color: #1b1b1b;
+}
+.suv-1 {
+  background-image: url(./images/sportag.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 75%;
+  width: 400px;
   height: 220px;
   border-radius: 8px;
-  background-color: #f7f7f7;
-  /* background-image: url(./images/peugeot.logo.png);
+  background-color: #f2f3f4;
+}
+.suv-2 {
+  background-image: url(./images/2022_Rush-GR-Sport-1.avif);
   background-size: cover;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
+  background-position: 60%;
+  width: 400px;
+  height: 220px;
+  border-radius: 8px;
+  background-color: #f2f3f4;
+}
+.suv-3 {
+  background-image: url(./images/WhatsApp\ Image\ 2025-01-28\ at\ 17.18.51_3f9398f2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 42%;
+  width: 400px;
+  height: 220px;
+  border-radius: 8px;
+  background-color: #f2f3f4;
 }
