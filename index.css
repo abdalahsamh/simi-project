@@ -70,14 +70,16 @@ video {
   transition: all 0.3s ease;
 }
 
-.hamad-title h1 {
+.first-title h1 {
   font-size: clamp(0.5rem, 5vw, 3rem);
 }
-
+.first-title span{
+  color: var(--primary-color);
+}
 .car-link {
   position: relative;
-  background-image: url(./images/cars-pages.jpg);
-  background-size: cover;
+  background-image: url(./images/about-limmo-large.png);
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   height: 60vh;
