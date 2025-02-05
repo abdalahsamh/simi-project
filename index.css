@@ -12,8 +12,8 @@ body {
 }
 
 :root {
-  --primary-color: #ff8c00;
-  --secondary-color: #f8f9fa;
+  --primary-color: #bfa37c;
+  --secondary-color: #e8e8e8;
 }
 
 .container {
@@ -49,7 +49,11 @@ header {
   background-color: #333 !important;
   color: #f8f9fa;
 }
-
+.offcanvas.show:not(.hiding),
+.offcanvas.showing {
+  transform: none;
+  width: 50%;
+}
 .offcanvas-header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -71,10 +75,18 @@ video {
 }
 
 .first-title h1 {
+  font-family: Inconsolata, sans-serif;
   font-size: clamp(0.5rem, 5vw, 3rem);
-}
-.first-title span{
   color: var(--primary-color);
+  font-size: 45px;
+}
+
+.first-title span {
+  color: var(--primary-color);
+}
+.first-title h3 {
+  color: var(--secondary-color);
+  font-size: clamp(0.5rem, 5vw, 3rem);
 }
 .car-link {
   position: relative;
@@ -97,56 +109,25 @@ video {
 .topic h1 {
   font-size: clamp(0.5rem, 5vw, 3rem);
 }
-
-.button {
+.car-page {
+  text-decoration: none;
   position: relative;
-  width: 120px;
-  height: 60px;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  transition: all 0.3s ease;
+  width: max-content;
+  color: #1e3c72;
 }
-
-.button-box {
-  display: flex;
-  align-items: center;
-  transition: transform 0.4s ease;
-}
-
-.button-elem {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  fill: var(--secondary-color);
-  transition: transform 0.3s ease;
-}
-
-.button:hover .button-box {
-  transform: translateX(-20px);
-}
-
-.button::before,
-.button::after {
+.car-page::after {
   content: "";
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  border-radius: 10%;
+  height: 4px;
+  width: 100%;
   position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background-color: rgba(150, 218, 240, 0.2);
-  border-radius: 50%;
-  transform: scale(0);
-  transition: transform 0.3s ease;
-  z-index: -1;
+  left: 0%;
+  bottom: -3%;
 }
-
-.button:hover::before {
-  transform: scale(1);
+.sec-topic {
+  font-size: clamp(0.5rem, 5vw, 3rem);
+  color: var(--secondary-color);
 }
 
 @media (max-width: 768px) {
@@ -272,10 +253,10 @@ video {
 
 .advantage-title {
   font-family: "Barlow", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 1rem;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .advantage-description {
