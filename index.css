@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,12 +9,12 @@
 }
 body {
   height: 200vh;
-  background-color: #1b1b1b;
+  background-color: #141a1c;
 }
 
 :root {
-  --primary-color: #bfa37c;
-  --secondary-color: #e8e8e8;
+  --primary-color: #c19a6b;
+  --secondary-color: #bebfc5;
 }
 
 .container {
@@ -76,17 +77,23 @@ video {
 
 .first-title h1 {
   font-family: Inconsolata, sans-serif;
-  font-size: clamp(0.5rem, 5vw, 3rem);
+  font-size: clamp(48px, 10vw, 108rem);
   color: var(--primary-color);
-  font-size: 45px;
+  color: #ffffff;
 }
-
+.first-title h2 {
+  font-family: "Source Code Pro", serif;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
 .first-title span {
   color: var(--primary-color);
 }
 .first-title h3 {
   color: var(--secondary-color);
   font-size: clamp(0.5rem, 5vw, 3rem);
+  border-bottom: 2px solid #c19a6b;
+  margin-bottom: 5rem;
 }
 .car-link {
   position: relative;
@@ -99,25 +106,32 @@ video {
   align-items: center;
   justify-content: center;
   padding: 2rem;
+  border-bottom: 3px solid var(--primary-color);
 }
 
 .car-link-wrapper {
   position: relative;
   display: inline-block;
 }
-
 .topic h1 {
-  font-size: clamp(0.5rem, 5vw, 3rem);
+  font-family: Inconsolata, sans-serif;
+  font-size: clamp(40px, 8vw, 90px);
+  color: #ffffff;
+}
+.topic h3 {
+  font-family: "Source Code Pro", serif;
+  font-size: clamp(10px, 5vw, 20px);
+  color: var(--primary-color);
 }
 .car-page {
   text-decoration: none;
   position: relative;
   width: max-content;
-  color: #1e3c72;
+  color: #ffffff;
 }
 .car-page::after {
   content: "";
-  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  background: linear-gradient(to right, #141a1c, #c19a6b);
   border-radius: 10%;
   height: 4px;
   width: 100%;
@@ -217,7 +231,10 @@ video {
 .advantages-section {
   color: var(--secondary-color);
 }
-
+.advantages-section h1 {
+  font-size: clamp(48px, 10vw, 80px);
+  color: #ffffff;
+}
 .section-title {
   font-family: "Barlow", sans-serif;
   font-size: 2.5rem;
@@ -228,7 +245,14 @@ video {
 .text-highlight {
   color: var(--primary-color);
 }
-
+.slogan {
+  color: var(--secondary-color);
+}
+.slogan-2 {
+  color: var(--secondary-color);
+  padding-bottom: 4rem;
+  border-bottom: 3px solid var(--primary-color);
+}
 .advantage-card {
   border-radius: 12px;
   transition: transform 0.3s ease;
