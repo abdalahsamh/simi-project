@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,137 +6,46 @@
   font-family: "Barlow", sans-serif;
 }
 
+:root {
+  --primary-color: #c19a6b;
+  --secondary-color: #bebfc5;
+}
+
 body {
   max-width: 100%;
   min-height: 100vh;
   display: flex;
-  background-color: #1b1b1b;
+  background-color: #141a1c;
 }
-.container {
-  width: 1260px;
-  max-width: 100%;
-  background-color: #1b1b1b;
+.sedan-sec h1 {
+  color: var(--primary-color);
+  font-size: clamp(1rem, 5vw, 3rem);
 }
-.first-topic {
-  width: 504px;
-  height: 32px;
-  font-size: 3rem;
-  font-weight: 600;
-  line-height: 33.6px;
-  color: #ff8c00;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+.sedan-sec span {
+  color: var(--secondary-color);
+  font-size: clamp(20px, 5vw, 33px);
 }
-.first-img-con {
-  width: 1240px;
-  height: 220px;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
+.suv-sec h1 {
+  color: var(--primary-color);
+  font-size: clamp(1rem, 5vw, 3rem);
 }
-.first-img-con h1 {
-  text-align: center;
-  color: #f4c123;
-  margin-bottom: 4rem;
+.suv-sec span {
+  color: var(--secondary-color);
+  font-size: clamp(20px, 5vw, 33px);
 }
-.first-img-con p {
-  font-family: "Barlow", serif;
-  font-size: 1rem;
-  text-align: center;
-  color: #1b1b1b;
+.van-sec h1 {
+  color: var(--primary-color);
+  font-size: clamp(1rem, 5vw, 3rem);
 }
-.cedan-1 {
-  background-image: url(./images/cerato.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 75%;
-  width: 400px;
-  height: 220px;
-  border-radius: 8px;
-  background-color: #f2f3f4;
+.van-sec span {
+  color: var(--secondary-color);
+  font-size: clamp(20px, 5vw, 33px);
 }
-.cedan-2 {
-  background-image: url(./images/cn7-2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 60%;
-  width: 400px;
-  height: 220px;
-  border-radius: 8px;
-  background-color: #f2f3f4;
+.vip-sec h1 {
+  color: var(--primary-color);
+  font-size: clamp(1rem, 5vw, 3rem);
 }
-.cedan-3 {
-  background-image: url(./images/toyota.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 42%;
-  width: 400px;
-  height: 220px;
-  border-radius: 8px;
-  background-color: #f2f3f4;
-}
-.first-img-con {
-  width: 1240px;
-  height: 220px;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-}
-.first-img-con h1 {
-  text-align: center;
-  color: #f4c123;
-  margin-bottom: 4rem;
-}
-.second-topic {
-  width: 504px;
-  height: 32px;
-  font-size: 3rem;
-  font-weight: 600;
-  line-height: 33.6px;
-  color: #ff8c00;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-.second-img-con {
-  width: 1240px;
-  height: 220px;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-}
-.second-img-con p {
-  font-family: "Barlow", serif;
-  font-size: 1rem;
-  text-align: center;
-  color: #1b1b1b;
-}
-.suv-1 {
-  background-image: url(./images/sportag.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 75%;
-  width: 400px;
-  height: 220px;
-  border-radius: 8px;
-  background-color: #f2f3f4;
-}
-.suv-2 {
-  background-image: url(./images/2022_Rush-GR-Sport-1.avif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 60%;
-  width: 400px;
-  height: 220px;
-  border-radius: 8px;
-  background-color: #f2f3f4;
-}
-.suv-3 {
-  background-image: url(./images/WhatsApp\ Image\ 2025-01-28\ at\ 17.18.51_3f9398f2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 42%;
-  width: 400px;
-  height: 220px;
-  border-radius: 8px;
-  background-color: #f2f3f4;
-}
+.vip-sec span {
+  color: var(--secondary-color);
+  font-size: clamp(20px, 5vw, 33px);
+} */
