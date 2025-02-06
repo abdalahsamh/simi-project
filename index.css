@@ -10,6 +10,7 @@
 body {
   height: 200vh;
   background-color: #141a1c;
+  overflow-x: hidden;
 }
 
 :root {
@@ -107,6 +108,15 @@ video {
   justify-content: center;
   padding: 2rem;
   border-bottom: 3px solid var(--primary-color);
+  overflow: hidden;
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 0.8s ease-out;
+}
+
+.car-link.show {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .car-link-wrapper {
@@ -118,7 +128,7 @@ video {
   font-size: clamp(25px, 8vw, 45px);
   color: #ffffff;
 }
-.topic h3 {
+.topic p {
   font-family: "Source Code Pro", serif;
   font-size: clamp(10px, 5vw, 20px);
   color: var(--primary-color);
@@ -185,7 +195,6 @@ video {
 .about-topic h1 {
   font-size: clamp(25px, 8vw, 45px);
   color: #ffffff;
-  
 }
 
 .branch-information {
