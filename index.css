@@ -141,7 +141,7 @@ video {
   bottom: -3%;
 }
 .sec-topic {
-  font-size: clamp(0.5rem, 5vw, 3rem);
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
   color: var(--secondary-color);
 }
 
@@ -183,8 +183,9 @@ video {
 }
 
 .about-topic h1 {
-  font-size: 2.5rem;
-  color: var(--primary-color);
+  font-size: clamp(25px, 8vw, 45px);
+  color: #ffffff;
+  
 }
 
 .branch-information {
