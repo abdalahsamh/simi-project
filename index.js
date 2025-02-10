@@ -1,5 +1,5 @@
 // document.addEventListener("DOMContentLoaded", function () {
-// //   let carLink = document.querySelector(".car-link");
+  // let carLink = document.querySelector(".car-link");
 
 //   let observer = new IntersectionObserver(
 //     (entries) => {

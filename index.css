@@ -109,15 +109,15 @@ video {
   padding: 2rem;
   border-bottom: 3px solid var(--primary-color);
   overflow: hidden;
-  opacity: 0;
+  /* opacity: 0;
   transform: translateX(100px);
-  transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out; */
 }
 
-.car-link.show {
+/* .car-link.show {
   opacity: 1;
   transform: translateX(0);
-}
+} */
 
 .car-link-wrapper {
   position: relative;
