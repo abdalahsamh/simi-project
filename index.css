@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Barlow", sans-serif;
+  font-family: "Alexandria", serif;
 }
 body {
   height: 200vh;
@@ -84,7 +84,7 @@ video {
 }
 .first-title h2 {
   font-family: "Source Code Pro", serif;
-  font-size: 2rem;
+  font-size: clamp(20px, 2vw, 2rem);
   color: var(--primary-color);
 }
 .first-title span {
@@ -92,9 +92,11 @@ video {
 }
 .first-title p {
   color: var(--secondary-color);
-  font-size: clamp(0.5rem, 5vw, 1.5rem);
+  font-size: clamp(0.5rem, 5vw, 30px);
   border-bottom: 2px solid #c19a6b;
   margin-bottom: 5rem;
+  line-height: 1.8;
+  padding-bottom: 60px;
 }
 .car-link {
   position: relative;
@@ -124,13 +126,15 @@ video {
   display: inline-block;
 }
 .topic h1 {
-  font-family: Inconsolata, sans-serif;
-  font-size: clamp(25px, 8vw, 45px);
+  font-family: "Alexandria", serif;
+  font-size: clamp(25px, 8vw, 40px);
   color: #ffffff;
+  word-spacing: 5px;
+  line-height: 1.8;
 }
 .topic p {
-  font-family: "Source Code Pro", serif;
-  font-size: clamp(10px, 5vw, 20px);
+  font-family: "Alexandria", serif;
+  font-size: clamp(40px, 5vw, 20px);
   color: var(--primary-color);
 }
 .car-page {
@@ -245,6 +249,8 @@ video {
 .advantages-section h1 {
   font-size: clamp(38px, 5vw, 55px);
   color: #ffffff;
+  border-top: solid 3px var(--primary-color);
+  padding-top: 60px;
 }
 .section-title {
   font-family: "Barlow", sans-serif;
@@ -257,13 +263,26 @@ video {
   color: var(--primary-color);
 }
 .slogan {
-  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
-.slogan-2 {
+.slogan h2 {
+  color: white;
+  font-family: "Alexandria", serif;
+  font-size: clamp(38px, 5vw, 55px);
+}
+.slogan p {
+  font-family: "Alexandria", serif;
+  line-height: 1.8;
+  color: var(--secondary-color);
+  text-align: right;
+}
+/* .slogan-2 {
   color: var(--secondary-color);
   padding-bottom: 4rem;
   border-bottom: 3px solid var(--primary-color);
-}
+} */
 .advantage-card {
   border-radius: 12px;
   transition: transform 0.3s ease;
@@ -287,17 +306,17 @@ video {
 }
 
 .advantage-title {
-  font-family: "Barlow", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
+  line-height: 1.8;
   margin-bottom: 1rem;
   color: var(--primary-color);
 }
 
 .advantage-description {
-  font-family: "Barlow", sans-serif;
   font-size: 1rem;
   font-weight: 400;
+  line-height: 1.8;
   color: var(--secondary-color);
 }
 
