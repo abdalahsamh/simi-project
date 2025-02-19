@@ -76,6 +76,42 @@ video {
   transition: all 0.3s ease;
 }
 
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-float img {
+  width: 60px; 
+  /* height: 60px; */
+  /* border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
+  transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-float img:hover {
+  transform: scale(1.1);
+}
+
+/* تصغير الأيقونة على الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .whatsapp-float img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .whatsapp-float img {
+    width: 40px;
+    height: 40px;
+    bottom: 15px;
+    right: 15px;
+  }
+}
+
 .first-title h1 {
   font-family: Inconsolata, sans-serif;
   font-size: clamp(48px, 8vw, 100px);
@@ -134,7 +170,7 @@ video {
 }
 .topic p {
   font-family: "Alexandria", serif;
-  font-size: clamp(40px, 5vw, 20px);
+  font-size: clamp(30px, 5vw, 20px);
   color: var(--primary-color);
 }
 .car-page {
@@ -388,5 +424,9 @@ video {
   .social-icon .icon {
     width: 20px;
     height: 20px;
+  }
+  .first-image,
+  .second-image {
+    display: none;
   }
 }
